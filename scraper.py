@@ -166,7 +166,7 @@ class Scraper:
 			img = cv2.imdecode(img, cv2.IMREAD_COLOR);
 			return img;
 		except Exception as e:
-			print("Get error: " + str(e));
+			print("GET Error: " + str(e));
 			return None;
 
 	# save image
