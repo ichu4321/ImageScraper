@@ -5,3 +5,6 @@
 
 # ignore pycache files
 *.pyc
+
+# ignore driver executable
+*.exe
